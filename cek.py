@@ -16,10 +16,8 @@ def validate_license(license_key):
     response = requests.post(url, json={
         "ProductId": product_id,
         "Key": license_key,
-        "MachineCode": "COMPUTER_UNIQUE_ID",
         "Sign": True,
         "ProductSecret": product_secret,
-        "FriendlyName": "OptionalFriendlyName"
     }, headers={
         "Authorization": f"Bearer {auth_token}"
     })
