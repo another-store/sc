@@ -3,7 +3,7 @@ import requests
 # Fungsi untuk memvalidasi lisensi
 def validate_license(license_key):
     # Ganti dengan URL yang sesuai dari Cryptolens.io
-    url = "https://app.cryptolens.io/api/key/Activate"
+    url = "https://app.cryptolens.io"
 
     # Ganti dengan auth token Anda dari Cryptolens.io
     auth_token = "WyI4MTg5NTgzNiIsIlRtTkV0ZDNrZGQ3QTZqRFBPb25GUjNqRGhjQVp2S00vQXg4eWQ2RlMiXQ=="
